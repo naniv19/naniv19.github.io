@@ -57,14 +57,14 @@
 }
 
 #palette3-title {
-    font-family: 'Montserrat';
+    font-family: 'Helvetica';
     text-align: center;
 }
 
 #palette3-color1 {
     background-color: #e0ca3c;
     color: #fbf4ca;
-    font-family: 'Montserrat';
+    font-family: 'Helvetica';
     text-align: center;
     padding: 24px;
 }
@@ -72,7 +72,7 @@
 #palette3-color2 {
     background-color: #5f4bb6;
     color: #bfb5ee;
-    font-family: 'Montserrat';
+    font-family: 'Helvetica';
     text-align: center;
     padding: 24px;
 }
@@ -80,7 +80,7 @@
 #palette3-color3 {
     background-color: #86a5d9;
     color: #d4e3fe;
-    font-family: 'Montserrat';
+    font-family: 'Helvetica';
     text-align: center;
     padding: 24px;
 }
