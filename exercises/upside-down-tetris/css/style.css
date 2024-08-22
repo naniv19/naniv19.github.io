@@ -26,6 +26,7 @@
 .green {
     background-color: green;
     border-color: darkgreen;
+    border-radius: 30% 50% 0%;
 }
 
 .purple {
@@ -36,4 +37,11 @@
 .gold {
     background-color: gold;
     border-color: goldenrod;
+    border-radius: 50%;
+}
+
+.black {
+    background-color: black;
+    border-color: black;
+    border-style: solid;
 }
