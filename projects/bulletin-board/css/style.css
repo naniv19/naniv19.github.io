@@ -14,6 +14,7 @@
     margin: 24px;
     padding: 24px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 8px 8px #00000033;
 }
 
 #art {
@@ -37,4 +38,15 @@
 
 #row2 {
     margin-left: 400px;
+}
+
+.pin {
+    background-color: rebeccapurple;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 55px;
+}
+
+.dif {
+    background-color: blue;
 }
