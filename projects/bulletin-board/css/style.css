@@ -31,6 +31,10 @@
     font-weight: bold
 }
 
+#row1 {
+    margin-right: 400px;
+}
+
 #row2 {
     margin-left: 400px;
 }
