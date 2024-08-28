@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container-1 {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px;
+}
+
+.container-1 h3 {
+    color: grey;
+}
+
+.image {
+    width: 300px;
+}
+
+.image,
+.copyright {
+    display: inline-block;
+}
