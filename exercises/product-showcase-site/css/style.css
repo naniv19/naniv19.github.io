@@ -7,18 +7,14 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
+.container-1 {
+    width: 60%;
+    margin: 36px auto;
+    padding: 48px 0px;
     text-align: center;
 }
 
-.container-1 {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 48px;
-}
-
-.container-1 h3 {
+.container-1 h5 {
     color: grey;
 }
 
@@ -26,7 +22,3 @@ h1 {
     width: 300px;
 }
 
-.image,
-.copyright {
-    display: inline-block;
-}
