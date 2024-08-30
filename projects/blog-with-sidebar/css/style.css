@@ -18,7 +18,8 @@ body {
 
 #sidebar-content {
     grid-area: sidebar;
-    padding: 18px;
+    padding: 12px;
+    padding-top: 0px;
 }
 
 #sidebar-content h2 {
@@ -76,6 +77,10 @@ body {
 
 #top-main h4 {
     font-style: italic;
+}
+
+#top-main h5 {
+    margin: 12px 0px;
 }
 
 #points {
