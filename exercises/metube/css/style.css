@@ -5,6 +5,13 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: linear-gradient(
+        90deg,
+        #EAF2CE,
+        #C3D9AD,
+        #9FBF8F,
+        #EAF2CE
+    ) ;
 }
 
 #grid-layout {
@@ -48,7 +55,7 @@ body {
 
 #header #tube {
     color: white;
-    background-color: red;
+    background-color: darkgreen;
     padding: 4px;
     border-radius: 12px;
 }
@@ -87,16 +94,6 @@ body {
     margin-bottom: 24px;
 }
 
-.metube-item .thumbnail-placeholder {
-    background: radial-gradient(
-        at top left, 
-        crimson, 
-        orange
-        );
-        aspect-ratio: 16/9;
-        border-radius: 8px;
-}
-
 .metube-item h4 {
     margin: 8px;
 }
@@ -124,4 +121,9 @@ body {
     width: 100%;
     aspect-ratio: 16 / 9;
     border-radius: 8px;
+}
+
+.icon {
+    margin: 5px;
+    color: darkgreen;
 }
