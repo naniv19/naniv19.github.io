@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#page-layout {
+    display: grid;
+    grid-template-columns: 1fr 120px 700px 550px 1fr;
+    grid-template-areas: 
+        ". header header header ."
+        ". column-1 column-2 column-3 .";
+}
+
+#header {
+    grid-area: header;
+    /* background-color: azure; */
+}
+
+.purple {
+    color: purple;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: gold;
+}
+
+.green {
+    color: rgb(110, 210, 16);
+}
+
+/* #header span{
+    margin: 0px;
+    padding: 0px;
+} */
+
+#column-1 {
+    grid-area: column-1;
+    /* background-color: antiquewhite; */
+}
+
+.thumbnail {
+    width: 80px;
+    margin: 5px 0px;
+    border-radius: 15px;
+}
+
+#column-2 {
+    grid-area: column-2;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#column-2 img {
+    width: 500px;
+}
+
+.arrow {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+#column-3 {
+    grid-area: column-3;
+    /* background-color: aquamarine; */
+    margin: 0px 20px;
+}
+
+#column-3 img {
+    width: 50px;
+}
+
+#column-3 h3 {
+    font-size: 24px;
+}
+
+#seller {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: image info;
+}
+
+#image {
+    grid-area: image;
+}
+
+#info {
+    grid-area: info;
+}
+
+#new {
+    font-weight: bold;
+}
+
+#bottons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#buyit {
+    background-color: rgb(44, 83, 255);
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.add {
+    border: 2px solid rgb(44, 83, 255);
+    color: rgb(44, 83, 255);
+    padding: 15px;
+    border-radius: 50px;
+}
