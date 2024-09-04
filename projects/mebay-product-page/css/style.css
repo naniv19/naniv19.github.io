@@ -45,6 +45,11 @@ body {
     margin: 25px;
 }
 
+#searchbotton:hover {
+    background-color: rgb(44, 83, 255);
+    color: white;
+}
+
 .purple {
     color: purple;
 }
