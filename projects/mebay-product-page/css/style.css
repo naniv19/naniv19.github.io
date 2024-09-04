@@ -18,6 +18,31 @@ body {
 #header {
     grid-area: header;
     /* background-color: azure; */
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+}
+
+#header h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+#searchbar {
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: gray;
+}
+
+#searchbotton {
+    border: 1px solid rgb(44, 83, 255);
+    border-radius: 50px;
+    color: rgb(44, 83, 255);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 25px;
 }
 
 .purple {
@@ -50,8 +75,13 @@ body {
     /* background-color: antiquewhite; */
 }
 
+.thumbnail:hover {
+    border: 2px solid black;
+    padding: 3px;
+}
+
 .thumbnail {
-    width: 80px;
+    width: 100px;
     margin: 5px 0px;
     border-radius: 15px;
 }
@@ -78,6 +108,10 @@ body {
     border-radius: 50px;
 }
 
+.arrow:hover {
+    background-color: rgb(187, 187, 187);
+}
+
 #column-3 {
     grid-area: column-3;
     /* background-color: aquamarine; */
@@ -86,16 +120,21 @@ body {
 
 #column-3 img {
     width: 50px;
+    margin: 25px 0px;
 }
 
 #column-3 h3 {
     font-size: 24px;
 }
 
+#column-3 h5 {
+    margin: 3px;
+}
+
 #seller {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: image info;
+    grid-template-columns: 1fr 7fr;
+    grid-template-areas: "image info";
 }
 
 #image {
@@ -104,6 +143,8 @@ body {
 
 #info {
     grid-area: info;
+    margin: 28px 0px;
+    text-decoration: underline;
 }
 
 #new {
@@ -122,6 +163,10 @@ body {
     padding: 15px;
     border-radius: 50px;
     font-weight: bold;
+}
+
+#buyit:hover {
+    background-color: rgb(35, 66, 207);
 }
 
 .add {
