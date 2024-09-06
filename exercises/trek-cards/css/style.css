@@ -13,8 +13,8 @@
     margin: 15px 20px;
     box-shadow: 4px 4px 12px rgb(48, 48, 48);
     background-color: rgb(237, 255, 237);
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     gap: 5px;
     justify-content: center;
 }
@@ -41,4 +41,5 @@
 
 .card-style-1 p {
     padding: 0px 20px;
+    /* margin: 12px; */
 }
