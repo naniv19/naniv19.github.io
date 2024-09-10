@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/hero-1.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#hero-1 h1 {
+    font-size: 8vw;
+    padding-left: 10vw;
+    margin-top: 20vh;
+    color: white;
+    margin-bottom: 1vh;
+}
+
+#hero-1 h4 {
+    font-size: 2vw;
+    padding-left: 10vw;
+    color: rgb(199, 0, 156);
+    margin-top: 1vh;
+}
+
+#hero-1 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(91, 9, 78);
+    padding: 24px;
+    margin-left: 10vw;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px
+}
+
+#hero-2 {
+    background-image: url("../images/hero-2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#hero-2 .hero-content {
+    text-align: center;
+    color: rgb(87, 0, 87);
+    padding-top: 15vh;
+}
+
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    font-style: italic;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px 48px;
+    margin: 5vh 5vw 10vh 0px;
+    border-radius: 50px;
+}
+
+#hero-3 {
+    background-image: url("../images/hero-33.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+
+#hero-3 h2 {
+    font-size: 8vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    font-weight: bold;
+}
+
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    font-style: italic;
+    color: rgb(251, 232, 198);
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 24px 48px;
+    margin: 5vh 5vw 10vh 0px;
+}
