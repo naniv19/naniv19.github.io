@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #1e0000;
+}
+
+#hero-5 {
+    background-image: url("../images/hero2.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-5 .hero-content {
+    color: white;
+    padding: 5vh 8vw;
+}
+
+#hero-5 h2 {
+    font-size: 6vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 1.5vh;
+}
+
+#hero-5 h4 {
+    font-size: 2vw;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 0px;
+    background-color: #1e0000;
+    border-radius: 30px;
+    padding: 24px;
+}
+
+.cropped-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    padding: 24px;
+    gap: 56px;
+}
+
+.cropped-grid-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cropped-grid-gallery img:hover {
+    width: 105%;
+    height: 105%;
+    transition: 0.5s;
+}
+
+.card {
+    margin-top: 24px;
+}
+
+.card p {
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.spacer {
+    height: 100px;
+}
+
+#footer {
+    color: rgb(255, 225, 214);
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 48px;
+}
