@@ -11,6 +11,12 @@ body {
     background-color: #1e0000;
 }
 
+#layout {
+    max-width: 1200px;
+    margin: 48px auto;
+    text-align: center;
+}
+
 #hero-5 {
     background-image: url("../images/hero2.jpeg");
     height: 100vh;
@@ -40,7 +46,7 @@ body {
     margin-top: 0px;
     background-color: #1e0000;
     border-radius: 30px;
-    padding: 24px;
+    padding: 24px 48px;
 }
 
 .cropped-grid-gallery {
