@@ -8,7 +8,14 @@ body {
 }
 
 body {
-    background-color: #1e0000;
+    background: rgb(255,252,244);
+    background: linear-gradient(
+        0deg, 
+        rgba(255,252,244,1) 
+        0%, 
+        rgb(200, 195, 181) 
+        100%
+    );
 }
 
 #layout {
@@ -75,7 +82,7 @@ body {
 }
 
 .card p {
-    color: white;
+    color: #1e0000;
     font-style: italic;
     text-align: center;
 }
@@ -85,7 +92,7 @@ body {
 }
 
 #footer {
-    color: rgb(255, 225, 214);
+    color: #d1bcab;
     text-align: center;
     font-style: italic;
     margin-bottom: 48px;
