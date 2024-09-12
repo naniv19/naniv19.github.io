@@ -108,7 +108,6 @@
     font-style: italic;
   }
   
-
 * {
     box-sizing: border-box;
 }
@@ -117,6 +116,28 @@ body {
     margin: 0px;
     font-family: "Montserrat Alternates", sans-serif;
     background-color: rgb(255, 255, 255);
+}
+
+#header {
+    display: flex;
+    /* width: 100px; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header h1 {
+    color: rgb(15, 75, 51);
+    font-size: 48px;
+}
+
+ #year {
+    margin: 0px;
+    margin-bottom: 60px;
+ }
+
+#header .fa-solid {
+    color: rgb(15, 75, 51);
+    font-size: 24px;
 }
 
 #hero-4 {
@@ -248,10 +269,6 @@ body {
     margin: 48px auto;
     text-align: center;
 }
-    
-#layout-2 h1 {
-    color: rgb(15, 75, 51);
-}
 
 #layout-2 h3 {
     font-size: "Montserrat Alternates";
@@ -269,9 +286,4 @@ body {
     margin-bottom: 24px;
     border-radius: 30px;
 }
-
-/* .vertical-masonry-gallery #website {
-    height: 400px;
-    object-fit: cover;
-} */
 
