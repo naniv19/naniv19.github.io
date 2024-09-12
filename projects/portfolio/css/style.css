@@ -276,15 +276,6 @@ body {
     font-style: italic;
 }
 
-#layout-2 img {
-    margin: 0px;
-}
-
-.img-div p {
-    margin: 0px;
-    margin-bottom: 24px;
-}
-    
 .vertical-masonry-gallery {
     columns: 3 auto;
     column-gap: 24px;
