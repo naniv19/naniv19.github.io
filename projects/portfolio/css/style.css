@@ -301,8 +301,13 @@ body {
   color: #403D39;
 }
 
+#me span {
+  font-weight: bold;
+}
+
 #info-me {
   padding: 48px;
+  margin: auto 0px;
 }
 
 #img-me img {
