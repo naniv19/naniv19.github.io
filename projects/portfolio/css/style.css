@@ -126,7 +126,7 @@ body {
 }
 
 #header h1 {
-    color: rgb(15, 75, 51);
+    color: #403D39;
     font-size: 48px;
 }
 
@@ -136,37 +136,38 @@ body {
  }
 
 #header .fa-solid {
-    color: rgb(15, 75, 51);
+    color: #BFAE9F;
     font-size: 24px;
 }
 
 #hero-4 {
-    background-image: url("../images/hero-portfolio.png");
+    background-image: url("../images/hero-image-2.png");
     height: 100vh;
     background-size: cover;
     background-position: center center;
     /* display: flex; */
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 48px;
 }
 
 #hero-4 .hero-content {
-    text-align: center;
+    /* text-align: center; */
     color: white;
-    padding-top: 20vh;
+    padding-top: 10vh;
 }
 
 #hero-4 h2 {
     font-size: 8vw;
     margin-bottom: 5vh;
-    background-color: white;
-    color: rgb(15, 75, 51);
+    /* background-color: white; */
+    color: #403D39;
     padding: 24px 0px;
 }
 
 #hero-4 h4 {
     font-size: 3vw;
-    color: #333333;
+    color: #403D39;
     margin: 0px;
     font-weight: 400;
     font-style: italic;
@@ -175,8 +176,8 @@ body {
 #hero-4 a {
     font-size: 1.5vw;
     display: inline-block;
-    background-color: rgb(15, 75, 51);
-    color: white;
+    background-color: #F2DAAC;
+    color: #403D39;
     text-decoration: none;
     padding: 24px;
     margin: 5vh 2vw 10vh;
@@ -184,17 +185,7 @@ body {
 }
 
 #hero-4 a:hover {
-    background-color: rgb(6, 46, 30);
-}
-
-.spacer {
-    height: 100px;
-}
-
-#title {
-    text-align: center;
-    font-size: 48px;
-    color: rgb(15, 75, 51);
+    background-color: #BFAE9F;
 }
 
 .single-column {
@@ -204,7 +195,7 @@ body {
 }
 
 #card-section {
-    color: rgb(15, 75, 51);
+    color: #403D39;
     padding: 48px;
 }
 
@@ -222,8 +213,8 @@ body {
     margin: 0px 36px;
     display: flex;
     flex-direction: column;
-    background-color: #eeeeee;
-    box-shadow: -4px 4px 12px gray;
+    background-color: #F2EDE4;
+    box-shadow: -4px 4px 12px #BFAE9F;
 }
 
 .card h3 {
@@ -241,7 +232,7 @@ body {
 #layout h1 {
     font-size: 48px;
     font-family: "Montserrat Alternates";
-    color: rgb(15, 75, 51);
+    color: #403D39;
 }
 
 #layout h3 {
@@ -279,11 +270,44 @@ body {
 .vertical-masonry-gallery {
     columns: 3 auto;
     column-gap: 24px;
+    height: 1150px;
 }
     
 .vertical-masonry-gallery img {
     width: 100%;
     margin-bottom: 24px;
     border-radius: 30px;
+}
+
+#me {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #F2DAAC;
+  margin: 72px;
+  border-radius: 50px;
+}
+
+#me h3 {
+  font-size: 4vw;
+  color: #333333;
+}
+
+#me h5 {
+  font-size: 2vw;
+  color: #403D39;
+}
+
+#me p {
+  color: #403D39;
+}
+
+#info-me {
+  padding: 48px;
+}
+
+#img-me img {
+  width: 100%;
+  padding: 48px;
+  border-radius: 100vh;
 }
 
