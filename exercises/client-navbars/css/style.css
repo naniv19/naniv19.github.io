@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +7,70 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+#navbar-1 {
+    background: linear-gradient(
+        to right, 
+        #DFBAAE, 
+        #AB8A7F
+    );
+    display: flex;
+    align-items: center;
+    padding: 0px 24px;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: #0D0D0D;
+    padding: 12px;
+    font-weight: bold;
+}
+
+#navbar-1 h1 {
+    color: #413A25;
+    font-style: italic;
+}
+
+#navbar-1 #name {
+    margin-right: auto;
+}
+
+.sankofa-display-regular {
+    font-family: "Sankofa Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+#navbar-2 {
+    background-color: #D9A5A0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-2 a {
+    text-decoration: none;
+    color: #181A26;
+    padding: 0px 48px;
+}
+
+#navbar-2 #name-2 h1 {
+    font-size: 48px;
+    font-family: "Sankofa Display";
+    color: white;
+}
+
+#navbar-2 .cta-buttom {
+    background-color: #D95D30;
+    color: #D9D5A3;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
 }
