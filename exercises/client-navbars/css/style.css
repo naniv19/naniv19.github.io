@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sankofa+Display&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -73,4 +75,90 @@ body {
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
+}
+
+.gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#header h1 {
+    font-family: "Gloria Hallelujah";
+    font-size: 24px;
+}
+
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top {
+    background-color: #F77C20;
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}  
+
+#navbar-top .content-column a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column div a {
+    padding: 24px;
+}
+
+#navbar-bottom .cta-buttom {
+    background-color: black;
+    color: #F77C20;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+}
+
+#navbar-bottom {
+    background-color: #5F48BF;
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+#navbar-last {
+    background-color: #44338C;
+}
+
+#navbar-last .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-last a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
 }
