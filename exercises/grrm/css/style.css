@@ -616,12 +616,12 @@ body {
 /**************************************************************
     Banner and Cards Styling
 **************************************************************/
-/* #banner-container{
+#banner-container{
     margin: 0px 0px;
     padding: 0px;
     align-items: center;
 
-} */
+}
 
 #banner-container img {
     width: 100%;
@@ -630,7 +630,7 @@ body {
 #card-1,
 #card-2,
 #card-3 {
-    padding: 12px;
+    padding: 0px;
     align-items: center;
 }
 
@@ -640,7 +640,7 @@ body {
     width: 100%;
 }
 
-/* #card-1 {
+#card-1 {
     margin-left: 0px;
     padding-right: 0px;
 }
@@ -648,7 +648,7 @@ body {
 #card-3 {
     margin-right: 0px;
     padding-left: 0px;
-} */
+}
 
 /**************************************************************
     Sidebar (Aside) Styling
