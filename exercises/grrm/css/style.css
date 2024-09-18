@@ -439,3 +439,350 @@ body {
     Media Queries Styling
 **************************************************************/
 /* TODO: Write your media queries here */
+
+/* TABLET BREAKPOINT */
+
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+    #grid-layout {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "header  header  header" 
+            "navbar  navbar  navbar"
+            "banner  banner  banner"
+            "card-1  card-2  card-3"
+            "aside   blog    blog"
+            "footer  footer  footer"
+            "bottom  bottom  bottom";
+    }
+
+    #header {
+        grid-area: header;
+    }
+    
+    #nav {
+        grid-area: navbar;
+    }
+    
+    #banner-container {
+        grid-area: banner;
+    }
+    
+    #card-1 {
+        grid-area: card-1;
+    }
+    
+    #card-2 {
+        grid-area: card-2;
+    }
+    
+    #card-3 {
+        grid-area: card-3;
+    }
+    
+    #aside {
+        grid-area: aside;
+    }
+    
+    #main {
+        grid-area: blog;
+    }
+    
+    #footer {
+        grid-area: footer;
+    }
+    
+    #bottom {
+        grid-area: bottom;
+    }
+
+    #header h1 {
+        font-size: 48px;
+    }
+
+    #nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #nav a {
+        flex: 200px;
+    }
+
+}
+
+/* MOBILE BREAKPOINT */
+
+@media screen and (max-width: 800px) {
+    #grid-layout {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "header"
+            "navbar"
+            "banner"
+            "card-1"
+            "card-2"
+            "card-3"
+            "aside"
+            "blog"
+            "footer"
+            "bottom";
+    }
+
+    #header {
+        grid-area: header;
+    }
+    
+    #nav {
+        grid-area: navbar;
+    }
+    
+    #banner-container {
+        grid-area: banner;
+    }
+    
+    #card-1 {
+        grid-area: card-1;
+    }
+    
+    #card-2 {
+        grid-area: card-2;
+    }
+    
+    #card-3 {
+        grid-area: card-3;
+    }
+
+    #aside {
+        grid-area: aside;
+    }
+    
+    #main {
+        grid-area: blog;
+    }
+    
+    #footer {
+        grid-area: footer;
+    }
+    
+    #bottom {
+        grid-area: bottom;
+    }
+
+    #header #shield-image {
+        display: none;
+    }
+
+    #header #search-bar {
+        display: none;
+    }
+
+    #header #search-button {
+        display: none;
+    }
+
+    /* #header form {
+        display: none;
+    } */
+
+    #header h1 {
+        font-size: 36px;
+    }
+
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #nav a {
+        flex: 150px;
+    }
+
+    #banner-container,
+#card-1,
+#card-2,
+#card-3,
+#aside,
+#main {
+    background-color: #00000077;
+
+}
+
+/**************************************************************
+    Banner and Cards Styling
+**************************************************************/
+/* #banner-container{
+    margin: 0px 0px;
+    padding: 0px;
+    align-items: center;
+
+} */
+
+#banner-container img {
+    width: 100%;
+}
+
+#card-1,
+#card-2,
+#card-3 {
+    padding: 12px;
+    align-items: center;
+}
+
+#card-1 img,
+#card-2 img,
+#card-3 img {
+    width: 100%;
+}
+
+/* #card-1 {
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+#card-3 {
+    margin-right: 0px;
+    padding-left: 0px;
+} */
+
+/**************************************************************
+    Sidebar (Aside) Styling
+**************************************************************/
+#aside {
+    display: flex;
+    flex-direction: column;
+    margin: 12px auto;
+    padding: 8px 0px 8px 8px;
+}
+
+#more-appearances-container {
+    background-image: url("../images/events-bg.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding: 24px;
+}
+
+#next-publication-container {
+    background-image: url("../images/releases-bg.jpg");
+    background-size: cover;
+    padding: 24px;
+    flex: 1;
+}
+
+#more-appearances-container h3 {
+    color: #d6d5c9;
+}
+
+#next-publication-container h3 {
+    color: #cbced7;
+}
+
+#more-appearances-container h3,
+#next-publication-container h3 {
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+/* .side-by-side {
+    display: flex;
+    margin-bottom: 24px;
+} */
+
+/* .side-by-side img,
+.ad-container img {
+    width: 100%;
+} */
+
+/* .side-by-side .image-container {
+    flex: 2;
+}
+
+.side-by-side .text-container {
+    flex: 5;
+    padding-left: 24px;
+}
+
+.side-by-side .text-container p {
+    margin: 2px 0px;
+} */
+
+.yellow {
+    color: #dbbf73;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: #a1a1a1;
+}
+
+.blue {
+    color: #92add1;
+}
+
+.montaga {
+    font-family: 'Montaga', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+/**************************************************************
+    Blog (Main) Styling
+**************************************************************/
+#main {
+    margin: 12px auto;
+    padding: 8px;
+    height: 100%;
+}
+
+#main h2 {
+    font-family: 'Cormorant', serif;
+    font-size: 28px;
+    margin: 12px 0px;
+    text-shadow: 0px 4px 4px #00000033;
+    letter-spacing: 2px;
+}
+
+#main h2 .caps {
+    font-size: 32px;
+}
+
+#main h3 {
+    font-family: 'Montaga', serif;
+    margin: 40px 0px 20px;
+}
+
+#main p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+#main h3 a,
+#main p a {
+    color: #1c4268;
+}
+
+#main h3 a {
+    text-decoration: none;
+}
+
+#blog-button-container {
+    margin: 48px auto;
+}
