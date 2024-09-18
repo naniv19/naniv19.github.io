@@ -602,14 +602,15 @@ body {
         flex: 150px;
     }
 
-    #banner-container,
-#card-1,
-#card-2,
-#card-3,
-#aside,
-#main {
-    background-color: #00000077;
+        #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: #00000077;
 
+    }
 }
 
 /**************************************************************
