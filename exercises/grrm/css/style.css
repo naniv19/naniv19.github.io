@@ -506,6 +506,7 @@ body {
 
     #nav a {
         flex: 200px;
+        border-bottom: 1px solid #222222;
     }
 
 }
@@ -534,6 +535,11 @@ body {
     
     #nav {
         grid-area: navbar;
+    }
+
+    #nav a {
+        border-bottom: 1px solid #222222;
+        padding: 18px 0px;
     }
     
     #banner-container {
@@ -591,6 +597,7 @@ body {
     #header {
         flex-direction: column;
         align-items: center;
+        
     }
 
     #nav {
@@ -664,8 +671,8 @@ body {
     background-image: url("../images/events-bg.jpg");
     background-position: right bottom;
     background-repeat: no-repeat;
-    background-color: black;
-    padding: 24px;
+    /* background-color: black; */
+    /* padding: 24px; */
 }
 
 #next-publication-container {
@@ -690,17 +697,17 @@ body {
     margin-top: 0px;
 }
 
-/* .side-by-side {
+.side-by-side {
     display: flex;
     margin-bottom: 24px;
-} */
+}
 
-/* .side-by-side img,
+.side-by-side img,
 .ad-container img {
     width: 100%;
-} */
+}
 
-/* .side-by-side .image-container {
+.side-by-side .image-container {
     flex: 2;
 }
 
@@ -711,7 +718,7 @@ body {
 
 .side-by-side .text-container p {
     margin: 2px 0px;
-} */
+}
 
 .yellow {
     color: #dbbf73;
