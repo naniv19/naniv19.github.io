@@ -106,6 +106,8 @@ body {
     text-decoration: none;
     font-weight: bold;
     color: rgb(253, 0, 177);
+    display: block;
+    text-align: center;
 }
 
 .card3:hover a {
@@ -116,10 +118,16 @@ body {
     border-radius: 12px;
 }
 
+#card3 h2 {
+    text-align: center;
+}
+
 #card3 {
     position: relative;
     border: 0px;
     padding: 0px;
+    flex: 1;
+    margin: 24px;
 }
 
 #card3 .card-front,
@@ -134,7 +142,7 @@ body {
 }
 
 #card3 .card-front {
-    background-image: url("../images/chikorita.jpg");
+    background-image: url("../images/pokemon.jpeg");
     background-size: cover;
     border-radius: 12px;
     width: 100%;
@@ -158,4 +166,9 @@ body {
 #card3:hover .card-back {
     transform: scaleX(1);
     transition: transform 0.25s 0.25s; 
+}
+
+#spacer {
+    width: 100%;
+
 }
