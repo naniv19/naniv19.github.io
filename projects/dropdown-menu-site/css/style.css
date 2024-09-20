@@ -129,10 +129,14 @@ body {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 400px) {
-    #nav {
+@media screen and (max-width: 600px) {
+    #navbar {
         flex-direction: column;
         align-items: center;
+    }
+
+    #navbar #logo {
+        margin: 0px auto;
     }
 
     .center-column {
