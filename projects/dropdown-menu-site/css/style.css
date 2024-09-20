@@ -5,10 +5,23 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #f7e6e6;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(
+        to right, 
+        #a6c1ff, 
+        #a6c1ff 1px, 
+        #f7e6e6 1px, 
+        #f7e6e6
+    );
 }
 
 #navbar {
-    background: linear-gradient(to bottom, #109cb8, #0e5b96);
+    background: linear-gradient(
+        to bottom, 
+        #b81056, 
+        #840e96
+    );
     display: flex;
     align-items: center;
 }
@@ -21,7 +34,7 @@ body {
 }
 
 #navbar a:hover {
-    background: linear-gradient(to top, #109cb8, #0e5b96);
+    background: linear-gradient(to top, #840e96, #b81056);
 }
 
 #navbar #logo {
@@ -82,7 +95,7 @@ body {
 
 .center-column {
     background-color: 
-        lightblue;
+        rgb(254, 240, 233);
         width: 50%;
         min-width: 500px;
         margin: 0px auto;
