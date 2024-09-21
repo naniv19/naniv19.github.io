@@ -231,6 +231,11 @@ a {
 
     .two-cards {
         flex-direction: column;
+        display: block;
+    }
+
+    .two-cards a {
+        width: 100%;
     }
 
     .three-cards {
