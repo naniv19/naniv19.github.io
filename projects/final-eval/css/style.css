@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,10 +8,149 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    /* background: linear-gradient(
+        339deg, 
+        rgb(255, 249, 249) 35%, 
+        rgb(0, 195, 255) 100%
+    ); */
+    background-color: #daeeff;
+    background-image:  repeating-linear-gradient(
+        45deg, 
+        #accdff 25%, 
+        transparent 25%, 
+        transparent 75%, 
+        #accdff 75%, #accdff
+    ), 
+    repeating-linear-gradient(
+        45deg, 
+        #accdff 25%, 
+        #daeeff 25%, 
+        #daeeff 75%, 
+        #accdff 75%, 
+        #accdff
+    );
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+}
+
+h1,
+h2 {
+    
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3,
+a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .center-column {
     width: 50%;
     min-width: 500px;
-    margin: 0px auto;
+    margin: 48px auto;
+    padding: 36px;
+    border-radius: 50px;
+    /* I TOOK A GLASSMORPHISM EFFECT FROM INTERNET, I HOPE YOU DON'T MIND :) */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+#top-part {
+    text-align: center;
+}
+
+#top-part h1 {
+    font-size: 48px;
+    color: rgb(215, 2, 2);
+    margin: 0px;
+}
+
+#top-part h3 {
+    color: rgb(4, 35, 96);
+    margin: 0px;
+    font-size: 24px;
+}
+
+#top-part p {
+    margin: 0px;
+    color: rgb(4, 35, 96);
+    font-weight: bold;
+}
+
+#img-vs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#img-vs .team {
+    flex-direction: column;
+    text-align: center;
+}
+
+#img-vs .team p {
+    font-size: 16px;
+}
+
+#img-vs img {
+    width: 200px;
+    margin: 24px;
+}
+
+#img-vs p {
+    font-size: 24px;
+    color: rgb(4, 35, 96);
+}
+
+#content-info {
+    text-align: center;
+}
+
+#content-info h2 {
+    color: rgb(4, 35, 96);
+    font-size: 36px;
+}
+
+#content-info p {
+    color: rgb(4, 35, 96);
+    font-size: 16px;
+}
+
+#content-info a {
+    background-color: rgb(215, 2, 2);
+    padding: 18px;
+    border-radius: 36px;
+    text-decoration: none;
+    color: white;
+    margin: 12px;
+    transition: 0.5s;
+}
+
+#content-info a:hover {
+    background-color: rgb(128, 0, 0);
+}
+
+#content-info #buttons {
+    margin: 48px;
+}
+ 
+#content-info #date {
+    font-weight: bold;
+}
+
+/* MEDIA QUERY */
+
