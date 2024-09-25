@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.center-column {
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+}
