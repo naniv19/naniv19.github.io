@@ -7,15 +7,20 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #231f20;
 }
 
 a,
-h2 {
+h2,
+h3,
+p {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: lighter;
     font-style: normal;
 }
+
+/* NAVBAR */
 
 #navbar {
     background-color: #231f20;
@@ -47,6 +52,8 @@ h2 {
     text-align: center;
     margin-right: 24px;
 }
+
+/* HERO HOMEPAGE */
 
 #hero-5 {
     background-image: url("../images/hero-img.png");
@@ -85,6 +92,8 @@ h2 {
     font-weight: bold;
 }
 
+/* FOOTER SECTION */
+
 #footer {
     background-color: #231f20;
     color: white;
@@ -114,4 +123,97 @@ h2 {
 #footer-columns-navbar a {
     display: block;
     padding: 8px 0px;
+}
+
+/* HERO MENU PAGE */
+
+#hero-2 {
+    background-image: url("../images/hero-2.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: white;
+    text-align: right;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    font-weight: lighter;
+    margin: 0px 5vw 0px 0px;
+    color: white;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #ed2331;
+    border-radius: 36px;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+/* CARD MENU */
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    background-color: #231f20;
+    color: white;
+    padding: 0px 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid white;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 24px 0px 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 6vw;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    color: #ed2331;
+}
+
+.price {
+    color: #ed2331;
+    background-color: white;
 }
