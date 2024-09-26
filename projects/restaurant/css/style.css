@@ -281,7 +281,7 @@ p {
     #navbar {
         display: flex;
         flex-direction: column;
-        /* padding: 36px; */
+        padding: 36px;
     }
 
     #navbar a {
