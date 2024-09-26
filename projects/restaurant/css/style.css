@@ -186,7 +186,9 @@ p {
 }
 
 .card {
-    flex: 1;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
     border: 1px solid white;
     padding: 36px;
     text-align: center;
@@ -195,6 +197,7 @@ p {
 
 .card h3 {
     font-size: 36px;
+    color: #ed2331;
     font-weight: bold;
     margin: 0px;
 }
@@ -205,18 +208,27 @@ p {
     margin: 24px 0px 0px;
 }
 
+.card p:first-of-type {
+    flex: 1;
+}
+
 #menu-title {
     text-align: center;
     font-size: 6vw;
     font-weight: bold;
     margin-bottom: 5vh;
-    color: #ed2331;
+    color: white;
 }
 
 .card .price {
-    color: #ed2331;
+    color: white;
     font-weight: bold;
-    background-color: white;
+    padding: 12px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 1px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* ABOUT US SECTION */
@@ -254,3 +266,26 @@ p {
 .side-by-side .text-container p {
     color: white;
 }    
+
+/* media query */
+
+@media screen and (max-width: 1000px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 90%;
+        min-width: 480px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 36px;
+    }
+
+    #navbar a {
+        margin: 24px 0px;
+    }
+}
