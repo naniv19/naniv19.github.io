@@ -169,7 +169,7 @@ p {
 /* CARD MENU */
 
 .single-column {
-    min-width: 480px;
+    min-width: 400px;
     max-width: 1200px;
     margin: 0px auto;
 }
