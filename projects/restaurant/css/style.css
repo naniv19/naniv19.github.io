@@ -169,7 +169,7 @@ p {
 /* CARD MENU */
 
 .single-column {
-    min-width: 600px;
+    min-width: 480px;
     max-width: 1200px;
     margin: 0px auto;
 }
@@ -276,7 +276,6 @@ p {
 
     .card {
         width: 90%;
-        min-width: 480px;
     }
 
     #navbar {
@@ -287,5 +286,37 @@ p {
 
     #navbar a {
         margin: 24px 0px;
+    }
+
+    #footer-navbar {
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+    }
+
+    #footer-columns-navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 350px;
+    }
+
+    .side-by-side {
+        flex-direction: column;
+    }
+
+    .side-by-side .text-container {
+        text-align: center;
+        margin-right: 0px;
+    }
+    
+
+    #hero-5 a {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    #hero-5 h4 {
+        margin: 24px;
     }
 }
